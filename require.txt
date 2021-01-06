@@ -1,0 +1,3 @@
+ipykernel
+streamlit
+pyngrok==4.1.8
