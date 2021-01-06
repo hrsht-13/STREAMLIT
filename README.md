@@ -25,6 +25,7 @@ Now connect to the port and click on the url link.
 > `print (public_url)`
 
 > `!streamlit run app.py >/dev/null`
+Keep the program connect and open the generated link in the browser.
 #### STEP 7
 GO AHEAD!!!!
 #### STEP 8
