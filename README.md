@@ -3,7 +3,8 @@
 ## Procedure:
 Follow the steps to deploy the model of food recognition
 #### STEP 1
-Change your directory to ```STREAMLIT-main```
+Change your directory to STREAMLIT
+>`%cd STREAMLIT-main/`
 #### STEP 2
 > `pip install -r require.txt`
 #### STEP 3
