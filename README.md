@@ -10,7 +10,7 @@ Change your directory to STREAMLIT
 #### STEP 3
 > `!python model.py`
 #### STEP 4
-Download the weights of the model from the following [link](https://drive.google.com/file/d/18srnxP3y6hiKjDRN6ffEc9nbwPelSZtA/view?usp=sharing)
+Download the weights of the model from the following [link](https://drive.google.com/file/d/1U6A1R3AO8HTeLKMmMAlx_D3dN7F09pVO/view?usp=sharing)
 
 (Save the downloaded file in same directory)
 #### STEP 5
