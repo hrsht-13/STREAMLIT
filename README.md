@@ -18,6 +18,8 @@ Connect to your ngrok account. Run the command that will add your authtoken to t
 > `!ngrok authtoken 1mWgwxghOSQ2x0LfNFTzYTnJ9zK_81vqRPDdijfPjq8ozBdGq`
 #### STEP 6
 Now connect to the port and click on the url link.
+> `from pyngrok import ngrok`
+
 > `public_url = ngrok.connect(port=8501)`
 
 > `print (public_url)`
