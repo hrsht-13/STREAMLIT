@@ -18,9 +18,9 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from pyngrok import ngrok
 
-
-resnet=InceptionResNetV2(weights="imagenet")
-x=resnet.layers[-2].output
-fc1=Dense(3,kernel_initializer='glorot_uniform', kernel_regularizer=l2(.0005),activation='softmax')(x)
-model=Model(inputs=resnet.input,outputs=fc1)
-model.save("model/food_model.h5")
+def model():
+    resnet=InceptionResNetV2(weights="imagenet")
+    x=resnet.layers[-2].output
+    fc1=Dense(3,kernel_initializer='glorot_uniform', kernel_regularizer=l2(.0005),activation='softmax')(x)
+    model=Model(inputs=resnet.input,outputs=fc1)
+    model.save("model/food_model.h5")
