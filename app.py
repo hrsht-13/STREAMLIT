@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import requests
 from io import BytesIO
-from weights import download_weight
+from weights import download_weights
 from model import model
 
 st.set_option("deprecation.showfileUploaderEncoding",False)
