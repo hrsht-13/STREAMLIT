@@ -7,7 +7,7 @@ Follow the steps to deploy the model of food recognition
 Change your directory to STREAMLIT
 >`%cd STREAMLIT/`
 #### STEP 2
-> `pip install -r require.txt`
+> `pip install -r requirements.txt`
 #### STEP 3
 Connect to your ngrok account. Run the command that will add your authtoken to the default ngrok.yml. If you dont have an account run the below command.
 > `!ngrok authtoken 1mWgwxghOSQ2x0LfNFTzYTnJ9zK_81vqRPDdijfPjq8ozBdGq`
