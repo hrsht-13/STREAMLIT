@@ -18,7 +18,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from pyngrok import ngrok
 
-def model():
+def download_model():
     resnet=InceptionResNetV2(weights="imagenet")
     x=resnet.layers[-2].output
     fc1=Dense(3,kernel_initializer='glorot_uniform', kernel_regularizer=l2(.0005),activation='softmax')(x)
