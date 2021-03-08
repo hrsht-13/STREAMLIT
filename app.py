@@ -12,7 +12,7 @@ def load_model():
   model=tf.keras.models.load_model("food_model.h5")
   model.compile(optimizer =tf.keras.optimizers.Adam(learning_rate=0.00001,decay=0.0001),metrics=["accuracy"],
                 loss= tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1))
-  model.load_weights("food_model_weights.h5")
+  model.load_weights("weights/food_model_weights.h5")
 
   return model
 
