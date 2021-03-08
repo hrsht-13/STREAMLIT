@@ -5,7 +5,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 from weights import download_weights
-from models import download_model
+from model import download_model
 
 st.set_option("deprecation.showfileUploaderEncoding",False)
 @st.cache(allow_output_mutation=True)
